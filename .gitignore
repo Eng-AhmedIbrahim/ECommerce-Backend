@@ -51,9 +51,13 @@ CodeCoverage/
 # NUnit
 *.VisualState.xml
 TestResult.xml
+<<<<<<< HEAD
 nunit-*.xml
 
 
 .vs/
 bin/
 obj/
+=======
+nunit-*.xml
+>>>>>>> 17ac65c872b664c44d8f03faf9399f346213eca3

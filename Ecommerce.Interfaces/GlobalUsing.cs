@@ -1,0 +1,16 @@
+﻿global using Ecommerce.Domain.Common;
+global using Ecommerce.Domain.Specifications;
+global using System.Linq.Expressions;
+global using Ecommerce.Interfaces.Infrastructure.Models.Authentication;
+global using Ecommerce.Domain.Entities.Authentication;
+global using Microsoft.EntityFrameworkCore.Query;
+global using Ecommerce.Dtos.AuthrizationDtos;
+global using Ecommerce.Domain.Entities.CategoryEntities;
+global using Ecommerce.Dtos.CategoryDtos;
+global using Microsoft.AspNetCore.Http;
+global using Ecommerce.Dtos.ProductDtos.ProductAttributeDtos;
+global using Ecommerce.Dtos.ProductDtos;
+global using Ecommerce.Domain.Entities.ProductEntities;
+global using Ecommerce.Dtos.CarouselDtos;
+global using Ecommerce.Domain.Models;
+global using Ecommerce.Domain.Entities.CartEntities;

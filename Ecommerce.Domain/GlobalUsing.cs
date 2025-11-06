@@ -1,0 +1,9 @@
+﻿global using Ecommerce.Domain.Common;
+global using Microsoft.AspNetCore.Identity;
+global using System.Linq.Expressions;
+global using Ecommerce.Domain.Entities.BranchEntities;
+global using Ecommerce.Domain.Entities.CompanyEntities;
+global using Ecommerce.Domain.Entities.ProductEntities;
+global using Ecommerce.Domain.Entities.Authentication;
+global using Ecommerce.Domain.Entities.CategoryEntities;
+global using Ecommerce.Domain.Entities.WishlistEntities;

@@ -67,12 +67,9 @@ await app.AddAutoMigrationService();
 
 app.UseMiddleware<ExceptionMiddleware>();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseStatusCodePagesWithRedirects("/errors/{0}");
 

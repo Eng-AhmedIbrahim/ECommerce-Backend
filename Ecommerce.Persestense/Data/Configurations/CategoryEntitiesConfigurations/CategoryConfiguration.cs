@@ -29,27 +29,6 @@
 
             builder.Property(c => c.Index)
                      .IsRequired(false);
-
-            builder.HasData(
-   new
-   {
-       Id = 100,
-       ArabicName = "احدث العروض",
-       EnglishName = "Exclusive Offers",
-       ArabicDescription = "قسم خاص بالعروض والخصومات.",
-       EnglishDescription = "Special section for offers and discounts.",
-       Index = 1
-   },
-   new
-   {
-       Id = 101,
-       ArabicName = "الجديد من منعم",
-       EnglishName = "Menem Newest Collection",
-       ArabicDescription = "قسم يحتوي على أحدث المنتجات.",
-       EnglishDescription = "Section containing the newest Menem products.",
-       Index = 2
-   }
-);
         }
     }
 }

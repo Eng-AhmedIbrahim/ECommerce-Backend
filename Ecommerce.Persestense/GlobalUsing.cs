@@ -21,3 +21,4 @@ global using Microsoft.EntityFrameworkCore.Storage;
 global using Ecommerce.Domain.Entities.WishlistEntities;
 global using Ecommerce.Domain.Entities.CartEntities;
 global using System.Text.Json;
+global using Serilog;

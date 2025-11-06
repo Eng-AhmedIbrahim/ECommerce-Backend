@@ -389,26 +389,6 @@ namespace Ecommerce.Persestense.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 100,
-                            ArabicDescription = "قسم خاص بالعروض والخصومات.",
-                            ArabicName = "احدث العروض",
-                            EnglishDescription = "Special section for offers and discounts.",
-                            EnglishName = "Exclusive Offers",
-                            Index = 1
-                        },
-                        new
-                        {
-                            Id = 101,
-                            ArabicDescription = "قسم يحتوي على أحدث المنتجات.",
-                            ArabicName = "الجديد من منعم",
-                            EnglishDescription = "Section containing the newest Menem products.",
-                            EnglishName = "Menem Newest Collection",
-                            Index = 2
-                        });
                 });
 
             modelBuilder.Entity("Ecommerce.Domain.Entities.CompanyEntities.Company", b =>

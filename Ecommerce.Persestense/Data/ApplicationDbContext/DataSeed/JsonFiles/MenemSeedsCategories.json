@@ -1,0 +1,620 @@
+[
+  {
+    "Index": 1,
+    "ArabicName": "احدث العروض",
+    "EnglishName": "Exclusive Offers",
+    "ArabicDescription": "قسم خاص بالعروض والخصومات.",
+    "EnglishDescription": "Special section for offers and discounts.",
+    "Products": []
+  },
+  {
+    "Index": 2,
+    "ArabicName": "الجديد من منعم",
+    "EnglishName": "Newest Collection",
+    "ArabicDescription": "قسم يحتوي على أحدث المنتجات.",
+    "EnglishDescription": "Section containing the newest Menem products.",
+    "Products": []
+  },
+  {
+    "Index": 3,
+    "ArabicName": "شاورما",
+    "EnglishName": "Shawerma",
+    "ArabicDescription": "أصناف الشاورما المختلفة",
+    "EnglishDescription": "Different types of shawerma",
+    "Products": [
+      {
+        "ArabicName": "شاورما فراخ كايزر",
+        "EnglishName": "Shawerma Chicken Kaiser",
+        "Price": 45,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762542904/kdaqyzi2ntow90kuno46.jpg"
+        ],
+        "Variants": [],
+        "productReviews": []
+      },
+      {
+        "ArabicName": "شاورما فراخ منعم",
+        "EnglishName": "Shawerma Chicken Menem",
+        "Price": 55,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762542848/uhgrg5x6nyarq2lpu1de.jpg"
+        ],
+        "Variants": [],
+        "productReviews": []
+      },
+      {
+        "ArabicName": "شاورما لحمة كايزر",
+        "EnglishName": "Shawerma Meat Kaiser",
+        "Price": 65,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762542989/au1puzasbzx3nzrjw37l.jpg"
+        ],
+        "Variants": [],
+        "productReviews": []
+      },
+      {
+        "ArabicName": "شاورما لحمة منعم",
+        "EnglishName": "Shawerma Meat Menem",
+        "Price": 72,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762543022/dp638f23gprz2lkqdlrw.jpg"
+        ],
+        "Variants": [],
+        "productReviews": []
+      }
+    ]
+  },
+  {
+    "Index": 4,
+    "ArabicName": "شيش",
+    "EnglishName": "Sheesh",
+    "ArabicDescription": "أصناف الشيش ",
+    "EnglishDescription": "Sheesh varieties",
+    "Products": [
+      {
+        "ArabicName": "شيش",
+        "EnglishName": "Sheesh",
+        "Price": 65,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762542652/ioxbo3jtalp0bzcoef3a.jpg"
+        ],
+        "Variants": [],
+        "productReviews": []
+      },
+      {
+        "ArabicName": "شيش تندوري",
+        "EnglishName": "Sheesh Tandori",
+        "Price": 65,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762542715/zaggz3oh4relbwzuwnxz.jpg"
+        ],
+        "Variants": [],
+        "productReviews": []
+      }
+    ]
+  },
+  {
+    "Index": 5,
+    "ArabicName": "كفتة",
+    "EnglishName": "Kofta",
+    "ArabicDescription": "أصناف الكفتة",
+    "EnglishDescription": "Different types of kofta",
+    "Products": [
+      {
+        "ArabicName": "كفتة لحمة",
+        "EnglishName": "Kofta Meat",
+        "Price": 45,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762543597/kekq1iu3ohs580kipylm.jpg",
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762543649/oskxbcixykxblkulckqx.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "كفتة فراخ",
+        "EnglishName": "Kofta Chicken",
+        "Price": 40,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762545124/d05l0afcfvrvxazzgnep.jpg",
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762543649/oskxbcixykxblkulckqx.jpg"
+        ],
+        "Variants": []
+      }
+    ]
+  },
+  {
+    "Index": 6,
+    "ArabicName": "كباب",
+    "EnglishName": "Kabab",
+    "ArabicDescription": "أصناف الكباب",
+    "EnglishDescription": "Different types of kebab",
+    "Products": [
+      {
+        "ArabicName": "كباب منعم",
+        "EnglishName": "Kebab Menem",
+        "Price": 85,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762543959/atyjawkqmgqovpinuwbg.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "طرب",
+        "EnglishName": "Tarb",
+        "Price": 85,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762543988/epytyvuslotscasuwghz.jpg"
+        ],
+        "Variants": []
+      }
+    ]
+  },
+  {
+    "Index": 7,
+    "ArabicName": "برجر",
+    "EnglishName": "Burger",
+    "ArabicDescription": "أصناف البرجر المختلفة",
+    "EnglishDescription": "Different types of burgers",
+    "Products": [
+      {
+        "ArabicName": "برجر أورجينال",
+        "EnglishName": "Burger Original",
+        "Price": 88,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544588/o9wpr3tizqga7bxyxszp.jpg"
+        ],
+        "Variants": [
+          {
+            "ArabicValue": "صغير",
+            "EnglishValue": "Small",
+            "Price": 88,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          },
+          {
+            "ArabicValue": "كبير",
+            "EnglishValue": "Large",
+            "Price": 109,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          }
+        ]
+      },
+      {
+        "ArabicName": "برجر هاليبينو",
+        "EnglishName": "Burger Halibeno",
+        "Price": 89,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544610/a8tzvk4b9mxoawvk4wku.jpg"
+        ],
+        "Variants": [
+          {
+            "ArabicValue": "صغير",
+            "EnglishValue": "Small",
+            "Price": 89,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          },
+          {
+            "ArabicValue": "كبير",
+            "EnglishValue": "Large",
+            "Price": 109,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          }
+        ]
+      },
+      {
+        "ArabicName": "برجر مشروم",
+        "EnglishName": "Burger Mashroom",
+        "Price": 99,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544655/kr3hosm9qfpyvwfrb62q.jpg"
+        ],
+        "Variants": [
+          {
+            "ArabicValue": "صغير",
+            "EnglishValue": "Small",
+            "Price": 99,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          },
+          {
+            "ArabicValue": "كبير",
+            "EnglishValue": "Large",
+            "Price": 119,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          }
+        ]
+      },
+      {
+        "ArabicName": "برجر باك فاير",
+        "EnglishName": "Burger Bak Fire",
+        "Price": 89,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": [
+          {
+            "ArabicValue": "صغير",
+            "EnglishValue": "Small",
+            "Price": 89,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          },
+          {
+            "ArabicValue": "كبير",
+            "EnglishValue": "Large",
+            "Price": 109,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          }
+        ]
+      },
+      {
+        "ArabicName": "برجر شاورما لحمة",
+        "EnglishName": "Burger Shawerma Meat",
+        "Price": 139,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544044/frxjvga7b4orgebb14p5.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "برجر تشكن كلاسيك",
+        "EnglishName": "Chicken Classic Burger",
+        "Price": 95,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544093/cditmjmewsx4xvrmc0a3.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "برجر بيف بيكون",
+        "EnglishName": "Beef Bacon Burger",
+        "Price": 140,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      }
+    ]
+  },
+  {
+    "Index": 8,
+    "ArabicName": "مقبلات و بطاطس",
+    "EnglishName": "Appetizers & Fries",
+    "ArabicDescription": "أصناف البطاطس والمقبلات",
+    "EnglishDescription": "Appetizers and fries varieties",
+    "Products": [
+      {
+        "ArabicName": "ساندوتش بطاطس",
+        "EnglishName": "Sandwich Batates",
+        "Price": 30,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544721/pz2svri2lqhpnbzckhe7.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "بطاطس بوم فريت",
+        "EnglishName": "Batates Boom Frit",
+        "Price": 30,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": [
+          {
+            "EnglishValue": "Small",
+            "ArabicValue": "صغير",
+            "Price": 30,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          },
+          {
+            "EnglishValue": "Large",
+            "ArabicValue": "كبير",
+            "Price": 45,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          }
+        ]
+      },
+      {
+        "ArabicName": "بطاطس كرينكل",
+        "EnglishName": "Batates Crinkle",
+        "Price": 30,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": [
+          {
+            "EnglishValue": "Small",
+            "ArabicValue": "صغير",
+            "Price": 30,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          },
+          {
+            "EnglishValue": "Large",
+            "ArabicValue": "كبير",
+            "Price": 45,
+            "StockQuantity": 10,
+            "ImageUrl": null
+          }
+        ]
+      },
+      {
+        "ArabicName": "بطاطس هاليبينو",
+        "EnglishName": "Batates Jalapeno",
+        "Price": 50,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "بطاطس سماش",
+        "EnglishName": "Batates Smash",
+        "Price": 70,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544762/neegmeataemqmxuyrrg6.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "بطاطس شاورما لحمة",
+        "EnglishName": "Batates Shawerma Meat",
+        "Price": 85,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "بطاطس شاورما فراخ",
+        "EnglishName": "Batates Shawerma Chicken",
+        "Price": 75,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      }
+    ]
+  },
+  {
+    "Index": 9,
+    "ArabicName": "صوصات",
+    "EnglishName": "Sauces",
+    "ArabicDescription": "أنواع الصوصات المتاحة",
+    "EnglishDescription": "Available sauce varieties",
+    "Products": [
+      {
+        "ArabicName": "ازازة ويسكي حلال",
+        "EnglishName": "Halal Whiskey Bottle",
+        "Price": 7,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544813/qnssjntjtffoopqukeet.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "اضافة صوص للبطاطس",
+        "EnglishName": "Add Sauce to Fries",
+        "Price": 15,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "مخلل",
+        "EnglishName": "Pickles",
+        "Price": 5,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "طحينة سادة",
+        "EnglishName": "Tahina Plain",
+        "Price": 13,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "طحينة سبايسي",
+        "EnglishName": "Tahina Spicy",
+        "Price": 13,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "سلطة بلدي",
+        "EnglishName": "Salata Baladi",
+        "Price": 5,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "صوص جبنة",
+        "EnglishName": "Cheese Sauce",
+        "Price": 15,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "صوص اوريجنال",
+        "EnglishName": "Original Sauce",
+        "Price": 25,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      }
+    ]
+  },
+  {
+    "Index": 10,
+    "ArabicName": "مشروبات",
+    "EnglishName": "Drinks",
+    "ArabicDescription": "المشروبات الباردة والساخنة",
+    "EnglishDescription": "Hot and cold drinks",
+    "Products": [
+      {
+        "ArabicName": "عصير مانجو منعم",
+        "EnglishName": "Mango Juice Menem",
+        "Price": 20,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544875/l1v9in8fd4xabvrajtzh.jpg"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "V-Cola",
+        "EnglishName": "V-Cola",
+        "Price": 22,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "بيج كولا",
+        "EnglishName": "Big-Cola",
+        "Price": 12,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      },
+      {
+        "ArabicName": "مياه معدنية",
+        "EnglishName": "Mineral Water",
+        "Price": 10,
+        "DiscountPercentage": 0,
+        "StockQuantity": 10,
+        "IsActive": true,
+        "Images": [
+          "https://res.cloudinary.com/dlybumcxp/image/upload/v1762544675/c8qucljzgvg5dge3ifb1.png"
+        ],
+        "Variants": []
+      }
+    ]
+  }
+]

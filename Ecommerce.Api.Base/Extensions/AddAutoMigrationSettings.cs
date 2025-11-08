@@ -1,6 +1,4 @@
-﻿using Ecommerce.Persestense.Data.ApplicationDbContext.DataSeed;
-
-namespace Ecommerce.Api.Base.Extensions;
+﻿namespace Ecommerce.Api.Base.Extensions;
 
 public static class AddAutoMigrationSettings
 {
@@ -9,18 +7,21 @@ public static class AddAutoMigrationSettings
         using var scope = app.Services.CreateScope();
         var services = scope.ServiceProvider;
 
-        var _dbContext = services.GetService<AppDbContext>();
-        var _identity = services.GetService<AppIdentityDbContext>();
-
         try
         {
-            if (_dbContext is not null)
-                await _dbContext.Database.MigrateAsync();
+            var _dbContext = services.GetRequiredService<AppDbContext>();
+            var _identity = services.GetRequiredService<AppIdentityDbContext>();
+            var _userManager = services.GetRequiredService<UserManager<AppUser>>();
+            var _roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
 
-            await MenemDataSeed.SeedAsync(_dbContext!, app.Environment.WebRootPath);
+            await _dbContext.Database.MigrateAsync();
+            await _identity.Database.MigrateAsync();
 
-            if (_identity is not null)
-                await _identity.Database.MigrateAsync();
+            await MenemDataSeed.SeedAsync(
+                _dbContext,
+                _userManager,
+                _roleManager
+            );
         }
         catch (Exception ex)
         {

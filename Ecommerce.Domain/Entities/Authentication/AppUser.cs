@@ -1,6 +1,4 @@
-﻿using Ecommerce.Domain.Entities.WishlistEntities;
-
-namespace Ecommerce.Domain.Entities.Authentication;
+﻿namespace Ecommerce.Domain.Entities.Authentication;
 
 public class AppUser : IdentityUser, IDomainEntity
 {
@@ -11,7 +9,7 @@ public class AppUser : IdentityUser, IDomainEntity
     public bool IsDeleted { get; set; } = false;
     public DateTime? DeleteTime { get; set; }
     public string? DeletedBy { get; set; }
-    public string ProfilePictureUrl { get; set; } = string.Empty;
+    public string? ProfilePictureUrl { get; set; } = string.Empty;
     public bool IsActive { get; set; } = true;
     public ICollection<RefreshToken>? RefreshTokens { get; set; } = new List<RefreshToken>();
     public ICollection<ProductReview> Reviews { get; set; } = new List<ProductReview>();

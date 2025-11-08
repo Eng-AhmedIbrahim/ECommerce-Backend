@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-
-namespace Ecommerce.Infrastructure.Services.Authentication;
+﻿namespace Ecommerce.Infrastructure.Services.Authentication;
 
 public class AccountServices : IAccountServices
 {
@@ -28,7 +26,7 @@ public class AccountServices : IAccountServices
         _authService = authService;
         _roleManager = roleManager;
         _context = context;
-        this._httpContextAccessor = httpContextAccessor;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     public async Task<LoginResponseDto?> RegisterAsync(SignUpDto user)

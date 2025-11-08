@@ -38,3 +38,4 @@ global using Ecommerce.UseCases.AuthenticationUseCase.Commands.Authentication.Cr
 global using Ecommerce.UseCases.AuthenticationUseCase.Commands.Authentication.Login;
 global using Ecommerce.Domain.Entities.CategoryEntities;
 global using Ecommerce.Dtos.ProductDtos.ProductAttributeDtos;
+global using Ecommerce.Persestense.Data.ApplicationDbContext.DataSeed;

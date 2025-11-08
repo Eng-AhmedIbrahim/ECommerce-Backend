@@ -7,12 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Content Remove="wwwroot\JsonFiles\SeedsCarousels.json" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<None Include="serilog.json" />
-		<None Include="wwwroot\JsonFiles\SeedsCarousels.json" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -37,6 +32,10 @@
 		<ProjectReference Include="..\Ecommerce.Infrastructure\Ecommerce.Infrastructure.csproj" />
 		<ProjectReference Include="..\Ecommerce.Persestense\Ecommerce.Persestense.csproj" />
 		<ProjectReference Include="..\Ecommerce.USeCases\Ecommerce.UseCases.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\" />
 	</ItemGroup>
 
 </Project>

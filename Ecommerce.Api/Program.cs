@@ -19,7 +19,8 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // البورت بتاع الرياكت
+        policy.WithOrigins("http://localhost:5173",
+            "https://e-commerce-frontend-rosy-zeta.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod()
                .AllowCredentials();
@@ -38,6 +39,8 @@ builder.Services.AddCors(options =>
 //                  .AllowAnyMethod();
 //        });
 //});
+
+
 
 
 builder.Services

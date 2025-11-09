@@ -7,3 +7,5 @@ global using Ecommerce.Domain.Entities.ProductEntities;
 global using Ecommerce.Domain.Entities.Authentication;
 global using Ecommerce.Domain.Entities.CategoryEntities;
 global using Ecommerce.Domain.Entities.WishlistEntities;
+global using Ecommerce.Domain.Entities.AddressEntities;
+global using Ecommerce.Domain.Entities.OrderEntities.Enums;

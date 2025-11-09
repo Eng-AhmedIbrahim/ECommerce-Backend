@@ -23,3 +23,5 @@ global using Ecommerce.Domain.Entities.CartEntities;
 global using System.Text.Json;
 global using Serilog;
 global using Ecommerce.Persestense.Models;
+global using Ecommerce.Domain.Entities.OrderEntities;
+global using Ecommerce.Domain.Entities.AddressEntities;

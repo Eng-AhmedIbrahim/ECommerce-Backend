@@ -7,4 +7,10 @@ public static class Constants
     public const int MaxDescriptionLength = 2000;
     public const int ImageUrlLength = 500;
     public const int CommentLength = 2000;
+    public const int AddressLineLength = 300;
+    public const int CityLength = 100;
+    public const int PhoneNumber = 11;
+
+
+
 }

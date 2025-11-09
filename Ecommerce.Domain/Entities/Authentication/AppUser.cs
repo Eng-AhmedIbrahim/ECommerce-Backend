@@ -1,4 +1,6 @@
-﻿namespace Ecommerce.Domain.Entities.Authentication;
+﻿using Ecommerce.Domain.Entities.OrderEntities;
+
+namespace Ecommerce.Domain.Entities.Authentication;
 
 public class AppUser : IdentityUser, IDomainEntity
 {
@@ -15,4 +17,8 @@ public class AppUser : IdentityUser, IDomainEntity
     public ICollection<ProductReview> Reviews { get; set; } = new List<ProductReview>();
 
     public ICollection<Wishlist> WishlistItems { get; set; } = new List<Wishlist>();
+
+    public ICollection<AppUserAddress> AppUserAddresses { get; set; } = new List<AppUserAddress>();
+    public ICollection<UsersOrders> Orders { get; set; } = new List<UsersOrders>();
+
 }
